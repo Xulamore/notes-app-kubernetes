@@ -17,7 +17,7 @@ spec:
           image: fhsinchy/notes-postgres
           resources:
             limits:
-              memory: 128Mi"
+              memory: "128Mi"
               cpu: "250m"
           ports:
             - containerPort: 5432
